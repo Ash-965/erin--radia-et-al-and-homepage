@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ada LoveLace</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesAda.css" media="all" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <!--NAVBAR HORIZONTAL-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ada Lovelace</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="index.html">Ada Lovelace</a>
+            <a class="nav-link" href="#">Woman in Tech</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--HEADER SECTION CONTAINING TITLE-->
+    <div class="container">
+      <img src="imgAda/babbage.png" class="babbage" alt="Babbage Background" />
+      <h2>Ada</h2>
+      <h1>LOVELACE</h1>
+      <h3>"The world's first computer programmer"</h3>
+    </div>
+    <!--INFORMATION ABOUT EARLY LIFE-->
+    <div class="rectangle1">
+      <img src="imgAda/writing.png" class="writing" alt="writing" />
+      <div class="container2">
+        <img
+          src="imgAda/ada.png"
+          class="ada"
+          alt="Goal Motivation"
+          width="400"
+          height="600"
+        />
+        <h2 class="heading">Her Early Life Influenced By STEM</h2>
+        <div class="earlyLife">
+          <p class="earlyLife">
+            Ada was born on 10th December 1815 in London. More than a century
+            before the launch of the world’s first electronic general purpose
+            computers. She is commonly regarded as the world’s first programmer
+            based on her work with Charles Babbage on his Analytical Engine.
+          </p>
+          <p class="earlyLife">
+            Ada had an early start in STEM. Lady Byron, her mother, was a
+            mathematician who was referred to as the ‘Princess of
+            Parallelograms’ by her husband, infamous poet Lord Byron.
+          </p>
+          <p class="earlyLife">
+            From age 4, Lovelace received tutoring in science and maths. Which
+            is a remarkable course of study for a woman in the 19th Century.
+          </p>
+        </div>
+      </div>
+      <!--INFORMATION ABOUT FLYING MACHINE-->
+      <div class="container3">
+        <img
+          src="imgAda/flyingmachine.png"
+          class="flyingMachineImg"
+          alt="Flying machine sketch"
+        />
+        <h2 class="heading2">Imagined A Flying Machine At Aged 12</h2>
+        <div class="flyingMachine">
+          <p>
+            When she was 12 her mother fell ill and went away to receive
+            treatment. Young Ada designed a flying machine in order to travel to
+            be with her mother. Ada loved machines and she studied the anatomy
+            birds to figure out the mechanics of flight. She even went as far as
+            conceptualising what powered flight might look like.
+          </p>
+
+          <p>
+            In a recorded letter to her mother she wrote, “I have got a scheme,
+            to make a thing in the form of a horse with a steam engine in the
+            inside so contrived as to move an immense pair of wings, fixed on
+            the outside of the horse, in such a manner as to carry it up into
+            the air while a person sits on its back.”
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--INFORMATION ABOUT ANALYTICAL MACHINE-->
+    <div class="rectangle2">
+      <img
+        src="imgAda/analytic.png"
+        class="analyticalMachineImg"
+        alt="Analytical Machine Image"
+      />
+      <h2 class="heading3">The Analytical Machine</h2>
+      <div class="analyticalMachine">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" id="c1">
+              <p>
+                Ada Lovelace came up with the first ever written program to make
+                a machine function. She worked with Charles Babbage, the
+                inventor of an early calculator that was based on a finite
+                number of possible calculations.
+              </p>
+            </div>
+            <div class="carousel-item" id="c2">
+              <p>
+                Ada realised that a machine could follow a series of simple
+                instructions, a program, to perform complex calculations.
+              </p>
+            </div>
+            <div class="carousel-item" id="c3">
+              <p>
+                Ada translated his work and added her own algorithm notes, which
+                led to the development of the Analytical Engine, the earliest
+                version of a computer. This ‘computer’ was just theoretical and
+                was never built, so Ada never saw her programming put into
+                practice.
+              </p>
+            </div>
+          </div>
+          <button
+            id="prev"
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            id="next"
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--INFORMATION ABOUT HER LEGACY-->
+    <div class="rectangle3">
+      <img src="imgAda/writing.png" class="writing2" alt="writing" />
+      <h2 class="heading4">HER LEGACY</h2>
+      <div class="legacy">
+        <!--BOX BORDER FOR EACH SECTION OF INFORMATION-->
+        <p class="box1">
+          <b>She has her own day of the year.</b> She lived a short life dying
+          at the age of 36. However, her legacy has inspired generations of
+          young woman and girls to study STEM and pursue careers in technology
+          and STEM.
+        </p>
+
+        <p class="box2">
+          The second Tuesday in October is a day for recognising the
+          achievements of women in science, technology, engineering and maths.
+        </p>
+
+        <p class="box3">
+          A programming language was named after Ada. In 1979, the U.S.Dept of
+          Defence developed a programming language called ‘Ada’, designed to
+          override and supersede the hundreds of different programming languages
+          in use by the military. This language is still used today.
+        </p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <footer>
+    <!--FOOTER SECTION-->
+    <img src="imgAda/blPurpleLT.png" alt="laptop icon for footer" id="iconFt" />
+    <a id="footer" href="Ada.html">ADA LOVELACE</a>
+  </footer>
+</html>

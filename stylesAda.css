@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css?family=Sarina');
+@import url('https://fonts.googleapis.com/css?family=Cardo');
+@import url('https://fonts.google.com/specimen/Poppins');
+
+/*COLOUR VARIABLES*/
+:root {
+    --color-purple:hsl(266,38%, 74%, 100%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-black: hsl(0, 0%, 0%, 100%);
+    --color-gray: 	hsl(0, 0%, 50%);
+    --color-blue-violet: hsl(271, 76%, 53%);
+
+
+}
+
+
+
+  
+.container-fluid{
+    background-color:var(--color-blue-violet);
+    height: 80px;
+    font-size: 30px;
+    
+    
+}
+.nav-link, .navbar-brand{
+    color:var(--color-white);
+}
+.rectangle1{
+    height: 1700px;
+    max-width: 100%;
+
+    
+    
+
+
+}
+.writing{
+  background-color: var(--color-gray) 1% / cover no-repeat;
+  height: 1700px;
+  max-width: 100%;
+  position: absolute;
+  opacity: 10%;
+}
+
+.writing2{
+  background-color: var(--color-gray) 1% / cover no-repeat;
+  height: 1340px;
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 10%;
+}
+.container{
+    height: 450px;
+    max-width: 100%;
+    background-color: rgb(69, 69, 69);
+    color: var(--color-white);
+    display: flex;
+}
+
+.container2{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+h1{
+    display: flex;
+    width: 1082px;
+    height: 152px;
+    flex-direction: column;
+    text-align: right;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -3.08px;
+    font-family: 'Cardo';
+    position: absolute;
+    right: 10px;
+    margin-top: 120px;
+
+
+
+}
+
+h2{
+    display: flex;
+    width: 1082px;
+    height: 112px;
+    flex-direction: column;
+    text-align: right;
+text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+font-size: 128px;
+line-height: 150%;
+letter-spacing: -2.816px;
+font-family: 'Cardo';
+position: absolute;
+right: 10px;
+}
+
+h3{
+    display: flex;
+    width: 667px;
+    height: 521px;
+    flex-direction: column;
+
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Cardo';
+    font-weight: 900;
+    line-height: 150%;
+    letter-spacing: -1.056px;
+    position: absolute;
+    margin-top: 300px;
+    right: 30px;
+}
+
+
+.ada{
+box-sizing: border-box;
+position: absolute;
+width: 300px;
+height: 450px;
+margin-top: -300px;
+mix-blend-mode: normal;
+border: 1px solid var(--color-black);
+border-radius: 500px;
+left: 50px; 
+margin-left: 20px; 
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.babbage{
+
+position: absolute;
+height: 450px;
+width: 100%;
+mix-blend-mode: multiply;
+}
+
+.heading{
+    position: absolute;
+    font-family:'Sarina', sans-serif;
+    font-size: 65px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: var(--color-blue-violet);
+    -webkit-text-stroke: 1px var(--color-black);
+    margin-top: 100px;
+    text-align: center;
+  
+}
+
+.earlyLife{
+position: relative;
+    display: flex;
+flex-direction: column;
+    justify-content: center;
+  margin-top: 10px;
+  top: 100px;
+  font-family: 'Poppins-Regular', sans-serif;
+  color: var(--color-black);
+  font-size: 32px;
+  margin-left: 100px;
+
+}
+
+
+.heading2{
+    position: absolute;
+    font-family:'Sarina', sans-serif;
+    font-size: 60px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: var(--color-blue-violet);
+    -webkit-text-stroke: 1px var(--color-black);
+    margin-top: 300px;
+    left: 30px;
+    text-align: left;
+  
+}
+
+.flyingMachine{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 450px;
+  font-family: 'Poppins-Regular', sans-serif;
+  color: var(--color-black);
+  font-size: 32px;
+  margin-left: 20px;
+  margin-right: 350px;
+  
+  
+
+}
+
+.flyingMachineImg{
+    width: 300px;
+    height: 500px;
+    border-radius: 729px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right:10px;
+    margin-top: 300px;
+
+}
+
+.rectangle2{
+    background-color: var(--color-blue-violet);
+    height: 1050px;
+}
+.heading3{
+position: absolute;
+font-family: 'Cardo';
+color: var(--color-white);
+font-weight: bolder;
+line-height: 150%;
+letter-spacing: -1.76px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 80px;
+margin-right: 10%;
+
+margin-top: 30px;
+    
+}
+
+.analyticalMachine{
+    margin-top: 220px;
+    margin-left: 10%;
+
+
+    font-weight:400;
+  font-family: 'Poppins-Regular', sans-serif;
+  color: var(--color-white);
+  font-size: 30px;
+  text-align: center;
+
+  
+}
+
+.analyticalMachineImg{
+
+    width: 600px;
+height: 400px;
+border-radius: 48px;
+margin-left: 32%;
+margin-top: -100px;
+margin-bottom: 0px;
+
+
+}
+
+.rectangle3 {
+    height: 1220px;
+
+}
+
+.heading4{
+  
+        position: absolute;
+        font-family:'Sarina', sans-serif;
+        font-size: 60px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        color: var(--color-blue-violet);
+        -webkit-text-stroke: 1px var(--color-black);
+        margin-top: 90px;
+text-align: center;
+margin-right: 10%;
+      
+    
+}
+
+.legacy{
+    position: absolute;
+    display: flex;
+flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+  margin-top: 250px;
+  font-family: 'Poppins-Regular', sans-serif;
+  color: var(--color-black);
+  font-size: 35px;
+  color: var(--color-white);
+  line-height: 200%;
+
+}
+
+
+
+
+.box1 {
+  background-color: var(--color-gray);
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 30%;
+  align-self: flex-start;
+  margin: 20px;
+  border-radius: 30px;
+  box-shadow: 20px 2px 1px var(--color-purple);
+
+}
+
+.box2 {
+  background-color: var(--color-gray);
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 25%;
+  align-self: center;
+  margin: 20px;
+  border-radius: 30px;
+  box-shadow: 20px 2px 1px var(--color-purple);
+}
+
+.box3 {
+  background-color: var(--color-gray);
+  padding: 20px;
+  width: 30%;
+  align-self: flex-end;
+  margin: 20px;
+  border-radius: 30px;
+  box-shadow: 20px 2px 1px var(--color-purple);
+  
+}
+
+#footer {
+  font-family:'Cardo';
+  font-weight: 900;
+  font-size: 50px;
+display: flex;
+  background-color: var(--color-gray);
+position: block;
+  padding: 150px;
+  margin-top: 125px;
+  width: 100%;
+  color: var(--color-white);
+  text-decoration: none;
+
+
+
+}
+
+#iconFt{
+position: absolute;
+margin-top: 128px;
+margin-left: 50px;
+width: 100px;
+}
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1231px) {
+
+
+  .rectangle1{
+    height: 1200px;
+  }
+
+  .writing{
+    height: 1200px;
+    max-width: 100%;
+  }
+    h1 {
+      font-size: 100px;
+    }
+    
+    h2 {
+      font-size: 90px;
+    }
+    
+    h3 {
+      width: 90%;
+      font-size: 36px;
+      margin-top: 200px;
+    }
+
+    .heading{
+      font-size: 40px;
+
+    }
+
+
+    .heading2{
+      font-size: 40px;
+      text-align: left;
+
+    }
+
+    .heading3{
+      margin-right: 0px;
+
+     
+    }
+
+    .heading4{
+  
+      text-align: center;
+left: 150px;
+     
+
+    }
+
+    .earlyLife{
+font-size: 20px;
+    }
+
+    .flyingMachine{
+      font-size: 20px;
+          }
+    
+    .ada {
+      width: 300px;
+      height: 450px;
+    }
+    
+    .flyingMachineImg {
+      width: 200px;
+      height: 400px;
+     
+    }
+    
+    .analyticalMachine {
+      font-size: 24px;
+      margin-right: 0px;
+      align-items: center;
+    }
+    
+    .analyticalMachineImg {
+      width: 400px;
+      height: 300px;
+      right: 0px;
+     
+   
+    }
+    
+    .legacy {
+      font-size: 28px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+   
+    h1 {
+      font-size: 80px;
+      margin-top: 60px;
+    }
+    
+    h2 {
+      
+      font-size: 60px;
+    }
+    
+    h3 {
+      width: 90%;
+      font-size: 25px;
+      margin-top: 200px;
+      text-align: right;
+    }
+
+    .heading{
+      font-size: 35px;
+    margin-right: 0%;
+    text-align: right;
+    flex-wrap: wrap;
+    }
+
+    .heading2{
+      font-size: 26px;
+      margin-right: 0%;
+      margin-top: 18%;
+      flex-wrap: wrap;
+     
+    }
+
+    .heading3{
+      font-size: 70px;
+      margin-right: -160px;
+      margin-top: 100px;
+      flex-wrap: wrap;
+      
+    }
+
+    .heading4{
+      left: -150px;
+    }
+
+
+   .earlyLife{
+    margin-left: 20px;
+   }
+ .flyingMachine{
+  margin-top: 250px;
+ }
+    
+    .ada {
+      width: 200px;
+      height: 350px;
+
+    }
+    
+    .flyingMachineImg {
+      width: 150px;
+      height: 300px;
+    }
+    
+    .analyticalMachine {
+      font-size: 20px;
+      margin-left: 70px;
+    
+    }
+    
+    .analyticalMachineImg {
+      width: 300px;
+      height: 200px;
+    }
+    
+
+    .legacy {
+      font-size: 24px;
+    }
+  }
+
+
+  @media (max-width: 375px) {
+    h1 {
+      font-size: 60px;
+      margin-top: 60px;
+    }
+    
+    h2 {
+      
+      font-size: 60px;
+    }
+    
+    h3 {
+      width: 90%;
+      font-size: 20px;
+      margin-top: 200px;
+    }
+
+    .heading{
+      font-size: 20px;
+    margin-right: 0%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    }
+
+    .heading2{
+      font-size: 18px;
+      margin-right: 0%;
+      text-align: left;
+      flex-wrap: wrap;
+      margin-top: 120px;
+    }
+
+    .heading3{
+      font-size: 20px;
+  padding-left: 430px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+   
+    }
+
+    .heading4{
+   font-size: 20px;
+   text-align: left;
+   margin-left: 270px;
+   margin-top: 0px;
+    }
+
+.rectangle3{
+height: 500px;
+
+}
+
+
+.writing2{
+  height: 500px;
+}
+   .earlyLife{
+    margin-left: 20px;
+    font-size: 14px;
+    margin-top: 0px;
+   }
+ .flyingMachine{
+  margin-top: 70%;;
+  font-size: 14px;
+  margin-right: 30%;
+ }
+    
+    .ada {
+      width: 100px;
+      height: 140px;
+      top: 650px;
+    }
+    
+    .flyingMachineImg {
+      width: 100px;
+      height: 100px;
+    
+    }
+    
+    .analyticalMachine {
+      font-size: 10px;
+      margin-left: 70px;
+      margin-top: 50px;
+    
+    }
+    
+    .analyticalMachineImg {
+      width: 200px;
+      height: 100px;
+      top: 1800px;
+      margin-right: 80px;
+    }
+    
+
+    .legacy {
+      font-size: 8px;
+      margin-left: 0%;
+      margin-top: 100px;
+    }
+
+#iconFt{
+  width: 40px;
+  margin-left: 0px;
+  margin-top: 40px;
+}
+
+#footer{
+  font-size: 20px;
+  padding: 50px;
+}
+
+
+
+  }
+
+
+#c1{
+  background-color: var(--color-blue-violet);
+  width: 70%;
+  left: 10%;
+  border-radius: 40px;
+  border: 3px solid var(--color-purple);
+  padding: 100px;
+  line-height: 170%;
+}
+
+#c2{
+  background-color: var(--color-blue-violet);
+  width: 70%;
+  left: 10%;
+  border-radius: 40px;
+  border: 3px solid var(--color-purple);
+  padding: 100px;
+  line-height: 170%;
+}
+
+#c3{
+  background-color: var(--color-blue-violet);
+  width: 70%;
+  left: 10%;
+  border-radius: 40px;
+  border: 3px solid var(--color-purple);
+  padding: 100px;
+  line-height: 170%;
+
+
+}
+
+#prev{
+right: 25%;
+}
+
+#next{
+ left: 75%;
+}
